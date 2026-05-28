@@ -262,7 +262,8 @@ fi
 if [ "$OS_NAME" = "windows" ]; then
     DOWNLOAD_URL="${DOWNLOAD_URL}.exe"
 fi
-INSTALL_DIR="$HOME/.local/share/gh/extensions/gh-aw"
+### INSTALL_DIR="$HOME/.local/share/gh/extensions/gh-aw""
+INSTALL_DIR="C:\Users\VHAHINCoderK1\AppData\Local\GitHub CLI\extensions\gh-aw
 BINARY_PATH="$INSTALL_DIR/$BINARY_NAME"
 CHECKSUMS_PATH="$INSTALL_DIR/checksums.txt"
 
